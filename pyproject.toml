@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "first-workflow"
+version = "0.1.0"
+description = ""
+authors = ["un-f0rgiven <barr85@mail.ru>"]
+readme = "README.md"
+packages = [
+  { include = "test" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+say-hello = "test.scripts.say_hello:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
