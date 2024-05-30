@@ -1,3 +1,3 @@
 # hexlet-my-first-workflow
 
-![example event parameter](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?event=push)
+![example workflow](https://github.com/github/un-f0rgiven/hexlet-my-first-workflow/workflows/hello-world.yml/badge.svg)
