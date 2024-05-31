@@ -1,0 +1,11 @@
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+
+    steps:
+      - uses: install build
+      - uses: npm start
+
+      - run: npm test
+      - run: npx eslint .
